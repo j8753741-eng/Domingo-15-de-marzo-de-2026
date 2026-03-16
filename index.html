@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Carta para Ti</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+margin:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background: radial-gradient(circle at top,#0a0f2c,#02030a);
+font-family:'Playfair Display',serif;
+overflow:hidden;
+color:white;
+}
+
+/* ESTRELLAS */
+
+.stars{
+position:fixed;
+width:100%;
+height:100%;
+background:transparent;
+box-shadow:
+100px 200px #fff,200px 400px #fff,300px 150px #fff,
+400px 300px #fff,500px 100px #fff,600px 450px #fff,
+700px 250px #fff,800px 350px #fff,900px 200px #fff,
+1000px 300px #fff,1100px 150px #fff,1200px 420px #fff;
+animation: twinkle 5s infinite alternate;
+}
+
+@keyframes twinkle{
+0%{opacity:.4}
+100%{opacity:1}
+}
+
+/* CARTA */
+
+.container{
+position:relative;
+width:75%;
+max-width:900px;
+background:rgba(15,15,25,.75);
+backdrop-filter: blur(10px);
+border-radius:20px;
+padding:50px;
+box-shadow:0 0 50px rgba(255,200,255,.3);
+animation: fadeIn 3s ease;
+overflow-y:auto;
+max-height:85vh;
+}
+
+/* TITULO */
+
+.title{
+font-family:'Great Vibes',cursive;
+font-size:60px;
+text-align:center;
+margin-bottom:40px;
+background:linear-gradient(45deg,#ff9cf0,#ffd6ff,#ff9cf0);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+animation: glow 3s infinite alternate;
+}
+
+@keyframes glow{
+from{text-shadow:0 0 10px #ff7de9;}
+to{text-shadow:0 0 25px #ffb0ff;}
+}
+
+/* TEXTO */
+
+p{
+font-size:18px;
+line-height:1.8;
+margin-bottom:20px;
+opacity:0;
+animation: appear 2s forwards;
+}
+
+p:nth-child(2){animation-delay:1s}
+p:nth-child(3){animation-delay:2s}
+p:nth-child(4){animation-delay:3s}
+p:nth-child(5){animation-delay:4s}
+p:nth-child(6){animation-delay:5s}
+p:nth-child(7){animation-delay:6s}
+p:nth-child(8){animation-delay:7s}
+p:nth-child(9){animation-delay:8s}
+p:nth-child(10){animation-delay:9s}
+
+@keyframes appear{
+to{opacity:1}
+}
+
+/* FRASE FINAL */
+
+.promise{
+margin-top:40px;
+font-size:22px;
+text-align:center;
+color:#ffb6ff;
+text-shadow:0 0 15px rgba(255,150,255,.7);
+font-weight:600;
+}
+
+/* EFECTO DE PARTÍCULAS */
+
+.particle{
+position:absolute;
+width:4px;
+height:4px;
+background:white;
+border-radius:50%;
+opacity:.6;
+animation: float 12s infinite;
+}
+
+@keyframes float{
+0%{transform:translateY(0)}
+100%{transform:translateY(-100vh)}
+}
+
+@keyframes fadeIn{
+from{opacity:0; transform:scale(.95)}
+to{opacity:1; transform:scale(1)}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<div class="container">
+
+<div class="title">Para Ti mi niña hermosa</div>
+
+<p>Esta noche de domingo, 15 de marzo de 2026, el mundo sigue su curso como siempre… las calles tienen su propio ritmo, el viento pasa suavemente entre los árboles y el cielo guarda sus estrellas en silencio. Pero dentro de mí, algo se detiene por un momento para pensar en ti.</p>
+
+<p>Pienso en ti porque sé que esta noche no estás del todo bien. Sé que tu pie te duele, sé que te lastimaste con esa tijera mientras hacías tu trabajo, y aunque para muchos pueda parecer solo un pequeño accidente… para mí no lo es. Porque cualquier cosa que te cause dolor, por pequeña que sea, también toca algo dentro de mi corazón.</p>
+
+<p>Ojalá pudiera estar ahí contigo ahora mismo. Ojalá pudiera sentarme a tu lado, tomar tu mano con cuidado y decirte bajito que todo va a estar bien. Me gustaría poder verte, preguntarte cómo te sientes, cuidar de ti aunque sea en los detalles más pequeños… porque cuando amas a alguien, incluso lo más simple —como acompañarlo cuando está herido— se vuelve algo profundamente importante.</p>
+
+<p>Me duele saber que no puedo estar contigo esta noche.</p>
+
+<p>Y también me duele pensar que mañana no nos veremos en clases… y que quizás pasarán tres o cuatro días sin poder verte. Tal vez para otros sea poco tiempo, pero cuando se trata de ti, cada día sin tu presencia se siente más largo de lo normal.</p>
+
+<p>Porque cuando estoy contigo, el tiempo pasa diferente. Más ligero. Más bonito. Más lleno de sentido. Y cuando no estás… siento ese pequeño vacío que deja tu ausencia.</p>
+
+<p>Me va a hacer mucha falta verte en estos días. Me va a hacer falta escuchar tu voz cerca, verte caminar hacia mí, compartir esos momentos simples que para nosotros significan tanto.</p>
+
+<p>Pero incluso si no puedo verte por unos días, quiero que sepas algo muy claro esta noche: estoy contigo, incluso desde la distancia.</p>
+
+<p>Estoy contigo en cada pensamiento que tengo ahora mismo, en cada mensaje que te mando y en cada momento en que me pregunto si ya te duele menos, si estás descansando y si te estás cuidando como mereces.</p>
+
+<p>Porque cuando alguien ama de verdad, la distancia no lo separa… solo le recuerda cuánto le importa la otra persona.</p>
+
+<p>Quiero que esta noche descanses, que te cuides y que tengas paciencia con tu pie mientras sana. Tu salud es mucho más importante que cualquier clase o cualquier cosa.</p>
+
+<p>Que te pienso. Que te extraño. Que me importas más de lo que a veces puedo explicar con palabras.</p>
+
+<p>Y aunque el tiempo pase lento mientras no nos vemos… también sé algo bonito: el próximo momento en que vuelva a verte será aún más especial.</p>
+
+<p>Así que esta noche solo quiero pedirte algo, con todo el cariño del mundo: descansa, cuídate y sana.</p>
+
+<p>Yo estaré aquí, pensando en ti, esperando el día en que vuelva a verte caminar hacia mí otra vez.</p>
+
+<p>Y cuando eso pase… créeme que mi corazón va a estar muy feliz de tenerte cerca de nuevo.</p>
+
+<p>Con todo lo que siento por ti.</p>
+
+<p>Te quiero muchísimo. Y ya te estoy extrañando.</p>
+
+<div class="promise">
+Prometo que incluso cuando la distancia nos separe por unos días,<br>
+mi corazón seguirá caminando a tu lado,<br>
+cuidándote, pensándote y amándote…<br>
+hasta el momento en que vuelva a verte sonreír frente a mí.
+</div>
+
+</div>
+
+</body>
+  </html>
